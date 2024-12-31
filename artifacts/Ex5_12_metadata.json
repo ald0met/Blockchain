@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "num2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Example/Ex5_12.sol": "Ex5_12"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Example/Ex5_12.sol": {
+			"keccak256": "0x21a672eb5645a7baeef35756e4fa86b473ec208681fe2d2d30ff6ba8dac295a8",
+			"urls": [
+				"bzz-raw://f8c71cb727289bff03c9db387553a0a2d3835b7c100af65d3952fc06895035bb",
+				"dweb:/ipfs/QmTrFKSYNTtVUBJ6LVVMuQC5M5TR3TRgr2s4SoXNgUorTV"
+			]
+		}
+	},
+	"version": 1
+}

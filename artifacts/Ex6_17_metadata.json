@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Example/Ex6_17.sol": "Ex6_17"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Example/Ex6_17.sol": {
+			"keccak256": "0x18b13e6c5d2ae7a9de113d0b991055c63ca69c30533e69d6e31e21833fcbae78",
+			"urls": [
+				"bzz-raw://bde33d270a99330d30e66e224559bc7ec6c2014b60c6b5c8d5d3b3cb66360330",
+				"dweb:/ipfs/QmRxLSomx8xgsqr8Yq9apdxMA973dATgpvdDUFFZ9bQPbi"
+			]
+		}
+	},
+	"version": 1
+}

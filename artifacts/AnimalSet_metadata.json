@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAllNames",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tiger",
+				"outputs": [
+					{
+						"internalType": "contract Animal",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turtle",
+				"outputs": [
+					{
+						"internalType": "contract Animal",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Animal",
+						"name": "_animal",
+						"type": "address"
+					}
+				],
+				"name": "whatIsTheName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Example/ANIAMLSET.sol": "AnimalSet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Example/ANIAMLSET.sol": {
+			"keccak256": "0x95af8cf96f3575823158a481e83c1e4dd0ee3621344f955699964ed5d3e3fea8",
+			"urls": [
+				"bzz-raw://fc6d525bdc94cef34efa77da3d9751161d2bb8d478616d3da2657aa36b40c3eb",
+				"dweb:/ipfs/QmbitwG3nVmMqPa5br6Q88GvxRGnaAKdJuh8tmN5Ax98Nn"
+			]
+		}
+	},
+	"version": 1
+}

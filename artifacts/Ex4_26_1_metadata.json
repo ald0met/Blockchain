@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "func1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week3/Ex4_26_1.sol": "Ex4_26_1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week3/Ex4_26_1.sol": {
+			"keccak256": "0x102e8526424e434f0ae61c11d079545cf444038df5d5efada739b655a71d3cc1",
+			"urls": [
+				"bzz-raw://13162827152a984ddea364677dcd6944ecbdb27188e23c8506e1dc0cbaec7f26",
+				"dweb:/ipfs/QmWxnxz9KyXineQUDCumk5AUhvzS88esitpmLc36FbJoZR"
+			]
+		}
+	},
+	"version": 1
+}

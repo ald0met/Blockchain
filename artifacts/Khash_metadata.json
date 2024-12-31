@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "password",
+						"type": "bytes32"
+					}
+				],
+				"name": "hashMe",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Example/ㅇㅇ.sol": "Khash"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Example/ㅇㅇ.sol": {
+			"keccak256": "0xa1a929a42d07ee64f759dbe4d3e46f78924087357493566691bc688805628c16",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6e9bbb212e879b4556cea8ed1e238e31fd4d3d45c53c42dfeac35411e58f93e1",
+				"dweb:/ipfs/QmR1LkmCxnXqEe1MhNoCgCP6YspYH55FhhpRGsm8eHRuAK"
+			]
+		}
+	},
+	"version": 1
+}
